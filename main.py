@@ -1,10 +1,7 @@
 
 numbers = list(map(int, input().split()))
 
-# ******************************
-# Make your Code
-# ******************************
+avg = sum(numbers) / len(numbers)
+for num in numbers:
+    print (f'{abs(avg - num):.2f}', end=' ')
 
-
-# Use this statement to print out the list element. # Replace the variable 'dist' with your variable
-# print (f'{dist:.2f}', end=' ')
